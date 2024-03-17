@@ -28,3 +28,8 @@
     display: block;
     transition: 0.3s;
 }
+
+.sidenav a:hover{
+    color:aqua;
+}
+
