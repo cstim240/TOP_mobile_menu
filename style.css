@@ -1,3 +1,30 @@
 .hamburger_icon{
-    
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0; 
+    /* this gets changed in js as it slides out */
+    position: fixed;
+    /*positioned relative to viewport
+        always stays in same place even
+        if page is SCROLLED */
+    top: 0;
+    left: 0;
+    background-color: gray;
+    overflow-x: hidden; /* disallows horizontal scroll*/
+    padding-top: 60px;
+    transition: 0.5s;
+    /*effect for slider when it comes out*/
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
 }
