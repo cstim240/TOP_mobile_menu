@@ -11,6 +11,7 @@
     /*positioned relative to viewport
         always stays in same place even
         if page is SCROLLED */
+    z-index: 1; /* so it stays on top*/
     top: 0;
     left: 0;
     background-color: gray;
@@ -29,7 +30,29 @@
     transition: 0.3s;
 }
 
-.sidenav a:hover{
-    color:aqua;
+.sidenav .nonClose:hover{
+    color:yellow;
+    background-color: antiquewhite;
 }
 
+.closeBtn:hover{
+    color:crimson;
+}
+
+.sidenav .closeBtn{
+    /* Positioned relateve to nearest positioned ancestor
+        uses document body and moves along w page scrolling*/
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+@media screen and (max-height: 450px){
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
