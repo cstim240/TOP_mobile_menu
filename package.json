@@ -1,0 +1,19 @@
+{
+  "name": "mobile_menu_top",
+  "version": "1.0.0",
+  "description": "Mobile Menu Template - Hamburger Style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstim240/TOP_mobile_menu.git"
+  },
+  "author": "Tim Supan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cstim240/TOP_mobile_menu/issues"
+  },
+  "homepage": "https://github.com/cstim240/TOP_mobile_menu#readme"
+}
