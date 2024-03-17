@@ -1,6 +1,7 @@
 Template for a mobile menu interface
 
 NPM Registry link: https://www.npmjs.com/package/mobile_menu_top?activeTab=code
+
 Live demo: https://cstim240.github.io/TOP_mobile_menu/
 
 ![image](https://github.com/cstim240/TOP_mobile_menu/assets/75660907/8a17084d-c456-4de0-ba86-676c8a31ae37)
